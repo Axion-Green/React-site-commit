@@ -13,7 +13,6 @@ import { AuthProvider } from './contexts/auth';
 import Userpage from './pages/Userpage';
 import Contato from './pages/Contato';
 
-
 function App() {
 
     return (

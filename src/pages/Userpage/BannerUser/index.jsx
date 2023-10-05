@@ -38,6 +38,7 @@ const BannerUser = () => {
           </div>
         </div>
       </section>
+      
     </>
   );
 };

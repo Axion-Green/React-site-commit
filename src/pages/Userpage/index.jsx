@@ -1,4 +1,5 @@
 import React from 'react'
+import WeatherPanel from '../../components/WeatherPanel';
 
 import BannerUser from './BannerUser'
 
@@ -8,6 +9,9 @@ const Userpage = () => {
        <section className="homeS" id="about">
           <div className="max-width">
             <BannerUser/>
+            
+            <div className='conteudo-card'><WeatherPanel/></div>
+            
           </div>
         </section>
     </>

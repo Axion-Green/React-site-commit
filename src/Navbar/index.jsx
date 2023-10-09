@@ -1,7 +1,7 @@
 import {React, useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
-import '../Navbar/Navbar.css'
+import '../Navbar/Navbar.scss'
 
 function Navbar() {
   const initialDarkMode = localStorage.getItem('isDarkMode') === 'true';

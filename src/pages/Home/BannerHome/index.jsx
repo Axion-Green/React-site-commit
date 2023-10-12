@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 const Banner = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const Banner = () => {
                     <div className="text-1">Sejam bem-vindos !</div>
                     <div className="text-2">Axion Green</div>
                     <div className="text-3">aqui temos <span className="typing"></span></div>
-                    <a href="selo.html">Nosso serviço</a>
+                    <Link to="/selo">Nosso serviço</Link>
                     <img src="./img/Logo.png" alt="Logo" /> 
                 </div>
             </div>  

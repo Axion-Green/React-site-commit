@@ -1,5 +1,5 @@
 import React from 'react'
-import './Home.css'
+import './Home.scss'
 import Banner from './BannerHome'
 import About from './About'
 import Servicess from './Servicess'

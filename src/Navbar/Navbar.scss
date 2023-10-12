@@ -1,4 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root {
+  --cor-pri: #10af82;
+  --cor-pri-fund: #059c957c;
+  --cor-pri-header: #a3e2d0;
+  --cor-sec: #fff;
+  --cor-ter: #111;
+  --cor-qur: #222;
+  --cor-qui: #ccc;
+  --cor-sex: #333;
+  --cor-set: #067988;
+  --cor-set: #17473B;
+  --cor-buttun: #129e7bc2;
+  --cor-section: #ececec;
+  --cor-section-gradient: #10af8293;
+  --back-contact-2: #0d8563;
+  --back-contact-1: #01130e;
+  --cor-input: #a8a8a8;
+  --font-color-navbar: #fff;
+  --font-color-home-text: #fff;
+  --font-color-home-button: #fff;
+  --font-color-sobre-button: #fff;
+  --font-color-sobre-text: #111;
+  --cor-font: #fff;
+  --cor-subtitle-ciaxa: #21B98F;
+  --cor-subtitle-claro: #17473B;
+  --cor-card: #222222;
+  --cor-scrollbar-thumb: var(--cor-pri);
+  --cor-scrollbar: #757575;
+  --cor-linha-title: #059c95;
+  --cor-background-page1: #8f8106;
+  --cor-background-page2: #8a0938;
+  --cor-background-page3: #6d0bc9;
+  --cor-background-page4: #310253;
+  --font-fam: 'Ubuntu', sans-serif;
+  --font-titu: 'Roboto', sans-serif;
+}
+
+.dark-mode {
+  --cor-pri: #059c95;
+  --cor-pri-fund: #056b66;
+  --cor-pri-header: #094946;
+  --cor-sec: #fff;
+  --cor-ter: #111;
+  --cor-qur: #222;
+  --cor-qui: #ccc;
+  --cor-sex: #333;
+  --cor-set: #17473B;
+  --cor-buttun: #0f5bb3c2;
+  --cor-input: #bbbbbb;
+  --cor-section: #252525;
+  --cor-section-gradient: #252525;
+  --back-contact-1: #0d8563;
+  --back-contact-2: #01130e;
+  --font-color-navbar: #fff;
+  --font-color-home-text: #fff;
+  --font-color-home-button: #fff;
+  --cor-background-page1: #065551;
+  --cor-background-page2: #df487f;
+  --cor-background-page3: #8a2be2;
+  --cor-background-page4: #4b0082;
+  --font-color-sobre-button: #fff;
+  --font-color-sobre-text: #fff;
+  --cor-font: #fff;
+  --cor-subtitle-ciaxa: #0d8563;
+  --cor-subtitle-claro: #17473B;
+  --cor-card: #222222;
+  --cor-scrollbar-thumb: var(--cor-pri);
+  --cor-scrollbar: #292929;
+  --cor-linha-title: #059c95;
+}
 
 .navbar {
   position: fixed;
@@ -97,7 +169,7 @@
     color: var(--cor-sec);
     font-size: 26px;
     cursor: pointer;
-    display: none;
+   
   }
 }
 

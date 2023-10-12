@@ -1,6 +1,6 @@
 import React from 'react'
 import BannerProbl from './BannerProb'
-import './Problemas.css'
+import './Problemas.scss'
 import SecProblemas from './SecProblemas'
 import SecSobre from './SecSobre'
 import SecPontsPosi from './SecPontosPosi'

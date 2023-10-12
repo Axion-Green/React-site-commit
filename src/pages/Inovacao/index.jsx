@@ -1,6 +1,6 @@
 import React from 'react'
 import SecBannerInov from './SecBannerInov'
-import './Inovacao.css'
+import './Inovacao.scss'
 import SecIntro from './SecIntro'
 import SecProposta from './SecProposta'
 import SecSoluc from './SecSoluc'

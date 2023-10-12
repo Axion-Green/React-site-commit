@@ -1,7 +1,7 @@
 import React from 'react'
 import BannerDif from './BannerDif'
 import ModeloNeg from './ModeloNeg'
-import './Difpages.css'
+import './Difpages.scss'
 import MateriaPrim from './MateriaPrim'
 const Difpages = () => {
   return (

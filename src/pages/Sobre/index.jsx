@@ -1,6 +1,6 @@
 import React from 'react'
 import CapaSobre from './CapaSobre'
-import './Sobre.css'
+import './Sobre.scss'
 import AboutSobre from './AboutSobre'
 import Diferenciais from './Diferenciais'
 import Graficos from './Graficos'

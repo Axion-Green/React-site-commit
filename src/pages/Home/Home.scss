@@ -128,12 +128,13 @@ header li a:hover {
   position: fixed;
   width: 100%;
   padding: 30px 0;
+  background-color: #01130e;
   font-family: var(--font-fam);
   z-index: 999;
   transition: all 0.3s ease;
 
   &.sticky {
-    background: var(--cor-pri); /* background color do navbar */
+    background: #01130e; /* background color do navbar */
     padding: 15px 0;
   }
 

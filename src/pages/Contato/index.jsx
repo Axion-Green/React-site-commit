@@ -1,6 +1,6 @@
 import React from 'react'
 import SecCont from './SecCont'
-import './Contato.css'
+import './Contato.scss'
 
 const Contato = () => {
   return (

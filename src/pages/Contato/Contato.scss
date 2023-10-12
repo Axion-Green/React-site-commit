@@ -1,10 +1,10 @@
-
-/* SEcction depois da ft e antes do Sobre*/
-.L{
+/* SEcção depois da ft e antes do Sobre */
+.L {
     padding: 30vh;
-    background:  linear-gradient(to bottom, var(--back-contact-2), var(--back-contact-1));
+    background: linear-gradient(to bottom, var(--back-contact-2), var(--back-contact-1));
 }
-.L .title{
+
+.L .title {
     font-family: var(--font-fam);
     text-align: center;
     font-size: 40px;
@@ -13,7 +13,8 @@
     padding-bottom: 20px;
     position: relative;
 }
-.L .title::before{
+
+.L .title::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -23,9 +24,10 @@
     background: var(--cor-subtitle-claro);
     transform: translateX(-50%);
 }
-.L .title::after{
+
+.L .title::after {
     position: absolute;
-    bottom:-12px;
+    bottom: -12px;
     left: 50%;
     font-size: 20px;
     background: var(--cor-subtitle-claro);
@@ -33,78 +35,92 @@
     padding: 5px;
     transform: translateX(-50%);
 }
-.about, .services, .skills, .teams, .contact, footer{
+
+.about, .services, .skills, .teams, .contact, footer {
     font-family: var(--font-titu);
 }
+
 .about .about-content,
 .services .serv-content,
-.skills .skills-content,
-.contact .contact-content{
+skills .skills-content,
+teams .team-content,
+contact .contact-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
-
-
-/*  sessão Contato  */
+/* Secção Contato */
 .contact .title {
     color: var(--cor-sec);
 }
-.contact .title::after{
+
+.contact .title::after {
     content: "Fale conosco";
 }
-.contact .contact-content .column{
+
+.contact .contact-content .column {
     width: calc(50% - 30px);
 }
-.contact .contact-content{
+
+.contact .contact-content {
     align-items: flex-start;
 }
-.contact .contact-content .left p{
+
+.contact .contact-content .left p {
     text-align: justify;
     color: var(--cor-sec);
 }
-.contact .contact-content .text{
+
+.contact .contact-content .text {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
     color: var(--cor-sec);
 }
-.contact .contact-content .left .icons{
+
+.contact .contact-content .left .icons {
     margin: 10px 0;
 }
-.contact .contact-content .row{
+
+.contact .contact-content .row {
     display: flex;
     height: 65px;
     align-items: center;
 }
-.contact .contact-content .row .info{
-    margin-left: 30px
+
+.contact .contact-content .row .info {
+    margin-left: 30px;
 }
-.contact .contact-content .row .info .head{
+
+.contact .contact-content .row .info .head {
     font-weight: 500;
     color: var(--cor-sec);
 }
-.contact .contact-content .row .info .sub-title{
+
+.contact .contact-content .row .info .sub-title {
     color: var(--cor-qui);
 }
-.contact .contact-content .row ion-icon{
+
+.contact .contact-content .row ion-icon {
     font-size: 25px;
     color: var(--cor-sec);
 }
-.contact .rigth  .fields{
+
+.contact .rigth .fields {
     display: flex;
 }
 
-.contact .rigth  .field,
-.contact .rigth  .fields .field{
+.contact .rigth .field,
+.contact .rigth .fields .field {
     width: 100%;
     height: 45px;
     margin-bottom: 15px;
 }
-.contact .rigth  .field input,
-.contact .rigth  .textarea textarea{
+
+.contact .rigth .field input,
+.contact .rigth .textarea textarea {
     width: 100%;
     height: 100%;
     border: 1px solid var(--cor-buttun);
@@ -115,25 +131,31 @@
     font-size: 17px;
     font-family: var(--font-titu);
 }
-.contact .rigth  .name{
+
+.contact .rigth .name {
     margin-right: 10px;
 }
-.contact .rigth  .email{
+
+.contact .rigth .email {
     margin-left: 10px;
 }
-.contact .rigth  .textarea{
+
+.contact .rigth .textarea {
     width: 100%;
     height: 80px;
 }
-.contact .rigth  .textarea textarea{
+
+.contact .rigth .textarea textarea {
     padding-top: 10px;
     resize: none;
 }
-.contact .rigth  .button{
+
+.contact .rigth .button {
     width: 170px;
     height: 47px;
 }
-.contact .rigth  .button button{
+
+.contact .rigth .button button {
     width: 100%;
     height: 100%;
     border: 2px solid var(--cor-buttun);
@@ -145,16 +167,19 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.contact .rigth  .button button:hover{
+
+.contact .rigth .button button:hover {
     background: var(--cor-scrollbar-thumb);
 }
+
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    }
+}
+
 .div1 img,
 .div2 img,
 .div3 img,
@@ -165,27 +190,27 @@
     height: 100%;
     object-fit: cover;
 }
-.desenvolv{
+
+.desenvolv {
     height: 0;
 }
 
 /* Estilos para telas menores que 768px */
 @media (max-width: 768px) {
     .L {
-      padding: 20vh;
+        padding: 20vh;
     }
-  
+
     .L .title {
-      font-size: 30px;
+        font-size: 30px;
     }
-  }
-  
-  /* Restyle para telas maiores que 768px */
-  @media (min-width: 769px) {
+}
+
+/* Restyle para telas maiores que 768px */
+@media (min-width: 769px) {
     /* Nenhum estilo extra necessário para telas maiores aqui */
-  }
-  
-  .about, .services, .skills, .teams, .contact, footer {
-      font-family: var(--font-titu);
-  }
-  
+}
+
+.about, .services, .skills, .teams, .contact, footer {
+    font-family: var(--font-titu);
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import Spinner from '../Spinner';
-import '../../pages/Home/Home.css'
+import '../../pages/Home/Home.scss'
 const Card = ({loadingData, showData, weather, forecast}) => {
 
     var today = new Date();

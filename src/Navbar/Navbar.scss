@@ -79,6 +79,7 @@
   font-family: var(--font-fam);
   z-index: 999;
   transition: all 0.3s ease;
+  // background-color: #01130e;
 
   &.sticky {
     background: var(--cor-pri);

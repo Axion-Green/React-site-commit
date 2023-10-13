@@ -1,6 +1,7 @@
 import React from 'react'
 import Grid from '../Grid'
 import ContactForm from '../ContatoForm'
+import Dropdow from '../../../components/Dropdow'
 
 const SecCont = () => {
   return (
@@ -38,6 +39,7 @@ const SecCont = () => {
                                 </div>
                             </div>
                         </div>
+                        <Dropdow/>
                     </div>
                 
                    {/*  <div className="column rigth">

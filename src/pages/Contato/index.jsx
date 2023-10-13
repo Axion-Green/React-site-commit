@@ -6,7 +6,6 @@ const Contato = () => {
   return (
     <>
         <SecCont/>
-       
     </>
   )
 }

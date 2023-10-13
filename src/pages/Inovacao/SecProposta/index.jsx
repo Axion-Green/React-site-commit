@@ -17,9 +17,10 @@ const SecProposta = () => {
                         </p>
                     </div>
                     <div className="column left ">
-                        <video className="aquarela" autoPlay loop muted>
+                       {/*  <video className="aquarela" autoPlay loop muted>
                             <source src="./img/stopmotion-projeto.mp4" type="video/mp4"/>
-                        </video>
+                        </video> */}
+                        <img src="" alt="" />
                     </div>
                 </div>
             </div>

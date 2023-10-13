@@ -132,6 +132,7 @@
   }
 
   .menu li {
+    margin-top: 10px;
     list-style: none;
     display: inline-block;
   }
@@ -167,6 +168,7 @@
   }
 
   .menu-btn {
+    margin: 0 5px 0 280px;
     color: var(--cor-sec);
     font-size: 26px;
     cursor: pointer;

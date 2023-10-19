@@ -25,8 +25,15 @@ Apos clonar meu repositório digite no terminal
 ```bash
 npm install
 ```
+Irá rodar o db.json 
+```bash
+npm run backend
+```
 depois de instalar as dependencias, digite
 ```bash
 npm run dev
 ```
 O projeto abrirá num servidor local, possivelmente o `http://localhost:5173/`
+
+## Todos os direitos pertencem a nossa Start up
+Não deverá usufluir de nosso site para fins comerciais. Caso queira se inspirar contate um de nossos desenvolvedores.

@@ -1,20 +1,27 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 
 const Grid = () => {
-  return (
-   <> 
-       {/*  <div className="max-width"> */}
-            <div className="parent">
-                <div className="div1"> <img src="https://github.com/Pontessxx.png" alt="" /> </div>
-                <div className="div2"><img src="https://github.com/Viniyama23.png" alt="" />  </div>
-                <div className="div3"> <img src="https://github.com/Capriottiii.png" alt="" /> </div>
-                <div className="div4"><img src="https://github.com/rcm2005.png" alt="" />  </div>
-                <div className="div5"><img src="https://github.com/gukawamura.png" alt="" />  </div>
-                {/* <div className="div6"><img src="https://github.com/Axion-Green.png" alt="" />  </div> */}
-            </div>
-        {/* </div> */}
-   </>
-  )
-}
+  const [imageData, setImageData] = useState([]);
 
-export default Grid
+  useEffect(() => {
+    // Substitua a URL abaixo pela localização do seu arquivo db.json
+    fetch('http://localhost:3001/images')
+      .then((response) => response.json())
+      .then((data) => {
+        setImageData(data);
+      })
+      .catch((error) => console.error('Erro ao carregar dados do JSON:', error));
+  }, []);
+
+  return (
+    <div className="parent">
+      {imageData.map((imageUrl, index) => (
+        <div key={index} className={`div${index + 1}`}>
+          <img src={imageUrl} alt={`Image ${index + 1}`} />
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Grid;

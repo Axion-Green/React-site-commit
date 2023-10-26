@@ -1,5 +1,0 @@
-[build]
-  command = "npm run build"
-
-[functions]
-  start = "npx json-server --watch db.json --port $PORT"

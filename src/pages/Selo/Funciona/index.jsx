@@ -9,7 +9,7 @@ const Funciona = () => {
                 <div className="about-content">
                     <div className="column left">
                         <div>
-                            <img id="img-car" className="img-car" alt="Carrossel de imagem"/>
+                            <img src='./img/arduno.jpg' className="img-car" alt="Carrossel de imagem"/>
                         </div>
                     </div>
                     <div className="column right">
@@ -17,6 +17,7 @@ const Funciona = () => {
                         <p>Bem-vindo aos serviços do Axion Green, sua solução completa para monitoramento e gerenciamento da qualidade do ar. Nós fornecemos tecnologia avançada e suporte especializado para ajudá-lo a tomar medidas proativas para melhorar a qualidade do ar em sua casa, escritório ou qualquer ambiente que você deseje monitorar.<br/><br/> Com instalação profissional, monitoramento em tempo real, alertas, análise de dados e suporte ao cliente excepcional, estamos comprometidos em garantir que você respire um ar mais limpo, proteja sua saúde e crie um ambiente seguro e saudável. Junte-se a nós e descubra como o Axion Green pode ajudá-lo a transformar a qualidade do ar e fazer a diferença.</p>
                     </div>
                 </div>
+                <div className="pad"></div>
                 <h2 className="title1" id="lista">Detalhes do serviço</h2>
                 <div className="aboutM-content" >
                     <div className="column right-1">

@@ -35,7 +35,7 @@ const SecCont = () => {
                                 <ion-icon name="mail-outline"></ion-icon>
                                 <div className="info">
                                     <div className="head">Email</div>
-                                    <div className="sub-title">axion.green@gmail.com</div>
+                                    <div className="sub-title">axion.green22@gmail.com</div>
                                 </div>
                             </div>
                         </div>

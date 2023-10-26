@@ -11,9 +11,9 @@ const Graficos = () => {
                         <img className="grafico" src="./img/dados-grafico-puluicao.png" alt="dados-grafico-puluicao"/>
                     </div>
                     <div className="column right">
-                            <p> O projeto de pesquisa envolveu uma revisão da literatura existente sobre sistemas de gerenciamento de gases inteligentes e a realização de entrevistas com responsáveis da área de contabilidade. Com base nessas informações, foi desenvolvido um protótipo do sistema, que foi testado em uma cidade-piloto utilizando um isqueiro para produzir gás carbônico. </p>
-                            <p><br/>Os resultados dos testes foram então analisados e usados para melhorar o design do sistema, a fim de promover a criação em massa sem degradar o meio ambiente e garantir a segurança do nosso dispositivo.</p>
-                            <p><br/>Os resultados dos testes do protótipo do sistema mostraram que ele era capaz de monitorar com precisão o volume do gás. Além disso, o sistema permitiu que tomassem decisões informadas sobre a gestão de seus poluentes melhorando. Os resultados também mostraram que o sistema poderia ser implementado de forma rentável e eficaz em outras cidades/empresas</p>
+                            <p> O projeto de pesquisa envolveu um estudo sobre a armazenagem de dados e a construção de gráficos para manter o cliente informado. Com base nessas informações, foi desenvolvido um protótipo do sistema, que foi testado em um ambiente simulando a concentração. </p>
+                            <p><br/>Os resultados dos testes foram então analisados e usados para otimizar o design do sistema, a fim de promover a sustentabilidade sem degradar o meio ambiente e garantir a segurança do nosso dispositivo.</p>
+                            <p><br/>Os resultados dos testes do protótipo do sistema mostraram que ele era capaz de monitorar com precisão a composizão de particulas do gás. Os resultados também mostraram que o sistema poderia ser implementado de forma rentável e eficaz em outras cidades/empresas como areas da saúde e empresariais</p>
                     </div>
                 </div>
             </div>
